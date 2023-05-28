@@ -5,7 +5,8 @@ import './App.css';
 // import Greeting from "./Components/Greeting1";
 // import Test from './Components/Greeting2';
 import './style/style.css';
-import FunctionalProps from './Components/FunctionalProps';
+// import FunctionalProps from './Components/FunctionalProps';
+import StateComponent from './Components/StateComponent';
 
 
 function App() {
@@ -20,9 +21,12 @@ function App() {
       </ClassProps> */}
 
       {/* props function */}
-      <FunctionalProps fName="Mohamed" lName="Eid" age="27" email="m.mohamedeid"> 
+      {/* <FunctionalProps fName="Mohamed" lName="Eid" age="27" email="m.mohamedeid"> 
         <h6 className='props-chiled'>i am a chiled for Functional Props </h6>
-      </FunctionalProps>
+      </FunctionalProps> */}
+
+      {/* State  */}
+      <StateComponent />
 
     </div>
   );
