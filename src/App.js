@@ -6,7 +6,9 @@ import './App.css';
 // import Test from './Components/Greeting2';
 import './style/style.css';
 // import FunctionalProps from './Components/FunctionalProps';
-import StateComponent from './Components/StateComponent';
+// import StateComponent from './Components/StateComponent';
+import Counter from './Components/Counter';
+import CounterClass from './Components/CounterClass';
 
 
 function App() {
@@ -26,7 +28,14 @@ function App() {
       </FunctionalProps> */}
 
       {/* State  */}
-      <StateComponent />
+      {/* <StateComponent /> */}
+
+      {/* Counter  */}
+      <h1>Counter From Function </h1>
+      <Counter/>
+      <br></br>
+      <h1>Counter From Class</h1>
+      <CounterClass> </CounterClass>
 
     </div>
   );
