@@ -7,8 +7,9 @@ import './App.css';
 import './style/style.css';
 // import FunctionalProps from './Components/FunctionalProps';
 // import StateComponent from './Components/StateComponent';
-import Counter from './Components/Counter';
-import CounterClass from './Components/CounterClass';
+// import Counter from './Components/Counter';
+// import CounterClass from './Components/CounterClass';
+import DataComponent from './Components/DataComponent';
 
 
 function App() {
@@ -31,11 +32,15 @@ function App() {
       {/* <StateComponent /> */}
 
       {/* Counter  */}
-      <h1>Counter From Function </h1>
-      <Counter/>
+      {/* <h1>Counter From Function </h1>
+      <Counter/> */}
       <br></br>
-      <h1>Counter From Class</h1>
-      <CounterClass> </CounterClass>
+      {/* <h1>Counter From Class</h1> */}
+      {/* <CounterClass> </CounterClass> */}
+
+      <DataComponent>
+
+      </DataComponent>
 
     </div>
   );
