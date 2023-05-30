@@ -9,7 +9,19 @@ import './style/style.css';
 // import StateComponent from './Components/StateComponent';
 // import Counter from './Components/Counter';
 // import CounterClass from './Components/CounterClass';
-import DataComponent from './Components/DataComponent';
+
+// import DataComponent from './Components/DataComponent';
+
+// import RegisterComponent from './Components/RegisterComponent';
+// import LoginComponent from './Components/LoginComponent';
+
+// import Component5 from './Components/Component5';
+// import { UserProvider } from './Components/ContextComponent';
+// import Component1 from './Components/Component1';
+
+import ApiGetComponent from './Components/ApiGetComponent';
+import ApiPostComponent from './Components/ApiPostComponent';
+
 
 
 function App() {
@@ -37,10 +49,25 @@ function App() {
       <br></br>
       {/* <h1>Counter From Class</h1> */}
       {/* <CounterClass> </CounterClass> */}
+   
+     {/* <DataComponent>
 
-      <DataComponent>
+      </DataComponent> */}
 
-      </DataComponent>
+{/*     Register and Login        */}
+      {/* <RegisterComponent></RegisterComponent> */}
+
+      {/* <LoginComponent></LoginComponent> */}
+
+  {/* <UserProvider value = "Mohamed">
+    
+    <Component1></Component1>
+
+  </UserProvider>  */}
+
+  {/* <ApiGetComponent></ApiGetComponent> */}
+
+  <ApiPostComponent></ApiPostComponent>
 
     </div>
   );

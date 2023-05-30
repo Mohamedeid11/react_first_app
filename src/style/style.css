@@ -216,3 +216,53 @@ img {
 	flex: 0 1 24%;
 }
 
+/* ---------------------------------------------------- */
+
+.form{
+	padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 60%;
+    margin: 70px;
+    text-align: center;
+    align-items: center;
+
+}
+.form-control{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.label{
+	margin: 10px;
+	width: 5px;
+	background-color: #404040;
+    margin-bottom: 10px;
+  	padding: 0 70px;
+}
+.submit{
+    background-color: rgb(9, 237, 93);
+    color: white;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+	margin: 10px;
+}
+.submit:hover{
+    opacity: 0.5;
+    background-color: bisque;
+    color: black;
+}
+
+---------------------------------------------------------------------------------------------------
+
+.div_api{
+    background-color: rgb(158, 142, 142);
+    border: 2px solid rgb(255, 255, 255);
+    height: 40px;
+    text-align:justify;
+    justify-content:center;
+    color: brown;
+    width:1230px;
+    padding: 50px;
+}
